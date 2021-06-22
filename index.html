@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Movie-App</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Watch Latest Movies...!</h1>
+    <header>
+        
+    <form id = 'form'>
+        <input type="text" id="search" class="search" placeholder="search">
+    </form>
+</header>
+
+<main id="main"></main>
+    <script src="script.js"></script>
+    <div class = "container">
+        <button type="button" id="btn1" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=1'), topFunction()">1</button>
+        <button type="button" id="btn2" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=2'), topFunction()">2</button>
+        <button type="button" id="btn3" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=3'), topFunction()">3</button>
+        <button type="button" id="btn4" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=4'), topFunction()">4</button>
+        <button type="button" id="btn5" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=5'), topFunction()">5</button>
+        <button type="button" id="btn6" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=6'), topFunction()">6</button>
+        <button type="button" id="btn7" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=7'), topFunction()">7</button>
+        <button type="button" id="btn8" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=8'), topFunction()">8</button>
+        <button type="button" id="btn9" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=9'), topFunction()">9</button>
+        <button type="button" id="btn10" onclick="getMovies('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=10'), topFunction()">10</button>
+</div>
+    
+</body>
+</html>
