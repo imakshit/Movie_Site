@@ -51,7 +51,7 @@ function showMovies(movies) {
           <h3>Overview</h3>
           ${overview}
           <br>
-          <a href = "https://soap2day.ac/search/keyword/${temp_title}" target="_blank">Watch movie here!</a>
+          <a href = "https://google.com/search/keyword/${temp_title}" target="_blank">Watch movie here!</a>
         </div>
         
         `
